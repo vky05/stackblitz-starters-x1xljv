@@ -1,0 +1,20 @@
+.puzzle-piece {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  /* Add other styling properties */
+
+  /* Example positions for puzzle pieces */
+  &.piece-1 {
+    top: 0;
+    left: 0;
+  }
+
+  &.piece-2 {
+    top: 0;
+    left: 120px;
+  }
+
+  /* Define positions for other pieces */
+}
